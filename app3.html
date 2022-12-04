@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aplicatie</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <style type="text/css">
+ body {
+ text-align: center;
+    font-family:fantasy;
+ }
+ #color {
+ width: 100%;
+ height: 75px;
+ border: 0;
+ border-radius: 5px;
+ }
+ #col {
+ }
+ div 
+ </style>
+ <input type="color" id="color" />
+ <br>
+ <div>
+ <input id="col" value="#0123456789" >
+ <button onclick="copy()" >generate</button>
+ </div>
+ <p id="p" style="font-size: 50px; text-align: center;" >
+    Text despre salut abc ABC
+ <script type="text/javascript">
+ function copy() {
+ let color = document.getElementById('color');
+ let col = document.getElementById('col')
+ col.value = color.value
+ document.getElementById("p").style.color = color.value
+</body> 
+</html>
